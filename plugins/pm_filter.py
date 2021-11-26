@@ -275,18 +275,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "start":
             buttons = [
                 [
-                    InlineKeyboardButton("🤖 Other Bots", url="https://t.me/NoDroid_Bots")
+                    InlineKeyboardButton("Join", url="https://t.me/TeluguDubbedHorrorMovies2")
                 ],
                 [
                     InlineKeyboardButton("🔎 Search Here", switch_inline_query_current_chat=''),
-                    InlineKeyboardButton("⚙️ Support Group", url="https://t.me/NoDroid_Support")
+                    InlineKeyboardButton("⚙️ Support", url="https://t.me/Suryaprabhas1245")
                 ],
                 [
                     InlineKeyboardButton("👤 About", callback_data="about"),
                     InlineKeyboardButton("💭 Help", callback_data="help")
                 ],
                 [
-                    InlineKeyboardButton("➕Add me to Group✅", url="https://t.me/PFM_MediaSearchBot?startgroup=true")
+                    InlineKeyboardButton("➕Add me to Group✅", url="https://t.me/MovieFindingRoBot?startgroup=true")
                 ]
                 ]
             await query.message.edit(START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode="html", disable_web_page_preview=True)
@@ -294,13 +294,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/NoDroid_Bots')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/TeluguDubbedHorrorMovies2')
                 ],
                 [
                     InlineKeyboardButton('Back', callback_data='start')
                 ]
                 ]
-            await query.message.edit(text="<b>🧑‍💻 Developer : <a href='https://t.me/NoDroid_Bots'>NoDroid Bots 🤖</a>\n🤩 Accessible to All\n🌏 Language : <code>Python3</code>\n📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n📡 Support Group : <a href='https://t.me/NoDroid_Support'>NoDroid Support</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=False)
+            await query.message.edit(text="<b>🧑‍💻 Developer : <a href='https://t.me/Suryaprabhas1245'>Surya Prabhas 🤖</a>\n🤩 Accessible to All\n🌏 Language : <code>Python3</code>\n📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n📡 Support Group : <a href='https://t.me/TeluguDubbedHorrorMovies2'>Support</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=False)
 
         elif query.data == "help":
             buttons = [
@@ -369,7 +369,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton(' 📡Share & Support📡', url='https://t.me/share/url?url=%20https://t.me/NoDroid_Bots'),
+                        InlineKeyboardButton(' 📡Share & Support📡', url='https://t.me/share/url?url=%20https://t.me/TeluguDubbedHorrorMovies2'),
                     ]
                     ]
                 
