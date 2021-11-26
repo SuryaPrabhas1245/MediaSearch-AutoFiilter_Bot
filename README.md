@@ -1,6 +1,4 @@
 # Just an Updated Auto-Filter Bot.
-### [![telegram badge](https://img.shields.io/badge/@NoDroid_Support-30302f?style=for-the-badge&logo=telegram)](https://t.me/NoDroid_Support)
-# [![NoDroid](https://img.shields.io/badge/NoDroid_Bots-orange?style=for-the-badge&logo=telegram)](https://t.me/NoDroid_Bots)  
 
 ## Added Features ⚙️
 * Imdb posters for <b>AUTO-FILTER</b>.
@@ -13,7 +11,7 @@
 * Ability to restrict groups(**AUTH_GROUPS**)
 
 ```bash
-JuZt EditeD by @NoDroid_Bots 🧑‍💻.
+JuZt EditeD by @SuryaPrabhas1245 🧑‍💻.
 NB: Not Created by Us 🤭.
 
 # Special CreditZ to:
@@ -25,7 +23,7 @@ Albert
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NoDroidBots/MediaSearch-AutoFiilter_Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/suryaprabhas1245/MediaSearch-AutoFiilter_Bot)
 ### Hard Way
 
 ```bash
@@ -92,9 +90,9 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/ClaeyZ_UBot)
+Contact Me On [Surya Prabhas](https://t.me/suryaprabhas1245)
 
-[My-ChannelZ](https://t.me/PrimeFlixMedia_All)
+[My-ChannelZ](https://t.me/TeluguDubbedHorrorMovies2)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
