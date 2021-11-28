@@ -90,8 +90,8 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('📡sʜᴀʀᴇ📡', url='https://t.me/share/url?url=%20https://t.me/TeluguDubbedHorrorMovies2'),
-            InlineKeyboardButton('Our-LinkZ', url='https://t.me/TeluguDubbedHorrorMovies2')
+            InlineKeyboardButton('📡Share Bot📡', url='https://t.me/share/url?url=%20https://t.me/TeluguDubbedHorrorMovies2'),
+            InlineKeyboardButton('Share Channel', url='https://t.me/TeluguDubbedHorrorMovies2')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
