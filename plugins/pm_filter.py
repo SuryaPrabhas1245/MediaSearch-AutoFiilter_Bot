@@ -104,7 +104,7 @@ async def filter(client, message):
         if poster:
             await message.reply_photo(photo=poster, caption=f"𝐅𝐨𝐫: <b>{message.from_user.mention}</b>\n\n🎬 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬: {up_search}\n📑 𝐓𝐨𝐭𝐚𝐥 𝐑𝐞𝐬𝐮𝐥𝐭𝐬: {len(btn)}\n\n<b>© @NoDroid_Bots</b> ­  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"𝐅𝐨𝐫: <b>{message.from_user.mention}</b>\n\n🎬 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬: {up_search}\n📑 𝐓𝐨𝐭𝐚𝐥 𝐑𝐞𝐬𝐮𝐥𝐭𝐬: {len(btn)}\n\n<b>© @NoDroid_Bots</b> ­  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"For: <b>{message.from_user.mention}</b>\n\n🎬 Movies/Series: {up_search}\n📑 Total Results: {len(btn)}\n\n<b>© @MovieFindingRoBot</b> ­  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
@@ -166,9 +166,9 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"𝐅𝐨𝐫: <b>{message.from_user.mention}</b>\n\n🎬 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬: {up_search}\n📑 𝐓𝐨𝐭𝐚𝐥 𝐑𝐞𝐬𝐮𝐥𝐭𝐬: {len(btn)}\n\n<b>© @NoDroid_Bots</b>  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"For: <b>{message.from_user.mention}</b>\n\n🎬 Movie/Series: {up_search}\n📑 Total Results: {len(btn)}\n\n<b>© @MovieFindingRoBot</b>  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"𝐅𝐨𝐫: <b>{message.from_user.mention}</b>\n\n🎬 𝐌𝐨𝐯𝐢𝐞/𝐒𝐞𝐫𝐢𝐞𝐬: {up_search}\n📑 𝐓𝐨𝐭𝐚𝐥 𝐑𝐞𝐬𝐮𝐥𝐭𝐬: {len(btn)}\n\n<b>© @NoDroid_Bots</b> ‌‌‌‌‎ ­  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"For: <b>{message.from_user.mention}</b>\n\n🎬 Movie/Series: {up_search}\n📑 Total Results: {len(btn)}\n\n<b>© @NoDroid_Bots</b> ‌‌‌‌‎ ­  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
@@ -275,11 +275,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "start":
             buttons = [
                 [
-                    InlineKeyboardButton("Join", url="https://t.me/TeluguDubbedHorrorMovies2")
+                    InlineKeyboardButton("Contact Me ⚡", url="https://t.me/suryaprabhas1245")
                 ],
                 [
                     InlineKeyboardButton("🔎 Search Here", switch_inline_query_current_chat=''),
-                    InlineKeyboardButton("⚙️ Support", url="https://t.me/Suryaprabhas1245")
+                    InlineKeyboardButton("⚙️ Support", url="https://t.me/TeluguDubbedHorrorMovies2")
                 ],
                 [
                     InlineKeyboardButton("👤 About", callback_data="about"),
@@ -338,7 +338,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📡Share & Support📡', url='https://t.me/share/url?url=%20https://t.me/NoDroid_Bots')
+                        InlineKeyboardButton('📡Share & Support📡', url='https://t.me/share/url?url=%20https://t.me/MovieFindingRoBot')
                     ]
                     ]
                 
@@ -369,7 +369,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton(' 📡Share & Support📡', url='https://t.me/share/url?url=%20https://t.me/TeluguDubbedHorrorMovies2'),
+                        InlineKeyboardButton(' 📡Share & Support📡', url='https://t.me/share/url?url=%20https://t.me/MovieFindingRoBot'),
                     ]
                     ]
                 
