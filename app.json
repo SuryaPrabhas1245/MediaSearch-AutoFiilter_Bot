@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/CLaY9950/Media-Search-bot",
-    "repository": "https://github.com/CLaY9950/Media-Search-bot",
+    "website": "https://github.com/SuryaPrabhas1245/MediaSearch-AutoFiilter_Bot",
+    "repository": "https://github.com/SuryaPrabhas1245/MediaSearch-AutoFiilter_Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -49,7 +49,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm an Auto-Filter Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
+            "value": "**Hi, I'm an Movie Search Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
             "required": false
         },
         "USE_CAPTION_FILTER": {
